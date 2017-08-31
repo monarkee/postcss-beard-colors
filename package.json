@@ -1,0 +1,37 @@
+{
+  "name": "postcss-beard-colors",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to generate utility helpers from a color scale",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "atomic css",
+    "css"
+  ],
+  "author": "David Hemphill <davidlee.hemphill@gmail.com>",
+  "license": "MIT",
+  "repository": "monarkee/postcss-beard-colors",
+  "bugs": {
+    "url": "https://github.com/monarkee/postcss-beard-colors/issues"
+  },
+  "homepage": "https://github.com/monarkee/postcss-beard-colors",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
