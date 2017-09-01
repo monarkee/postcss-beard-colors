@@ -1,6 +1,6 @@
 {
   "name": "postcss-beard-colors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin to generate utility helpers from a color scale",
   "keywords": [
     "postcss",
